@@ -1,5 +1,3 @@
-
-<img src="https://surveymonkey-assets.s3.amazonaws.com/survey/65616172/d63c68a4-e91d-4439-9f0c-8272b34d195b.png">
 <h1>Semaine Intensive d'Intégration | Équipe 18 - ARGON</h1>
 
 Intégration du site web client "06-Carbone"
@@ -16,3 +14,4 @@ Intégration du site web client "06-Carbone"
 <a href="https://github.com/jasongauvin/hetic-w1p2021-18-argon">Repository</a>
 <h3>Lien Netlify</h3>
 <a href="toto-fr.netlify.com">TOTO-fr</a>
+<img src="https://surveymonkey-assets.s3.amazonaws.com/survey/65616172/d63c68a4-e91d-4439-9f0c-8272b34d195b.png">
