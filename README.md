@@ -13,5 +13,5 @@ Intégration du site web client "06-Carbone"
 <h3>Lien GitHub</h3>
 <a href="https://github.com/jasongauvin/hetic-w1p2021-18-argon">Repository</a>
 <h3>Lien Netlify</h3>
-<h4>www.toto-fr.netlify.com</h4>
+<h4>https://toto-fr.netlify.com/</h4>
 <img src="https://surveymonkey-assets.s3.amazonaws.com/survey/65616172/d63c68a4-e91d-4439-9f0c-8272b34d195b.png">
