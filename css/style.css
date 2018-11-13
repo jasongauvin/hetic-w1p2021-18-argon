@@ -1,0 +1,114 @@
+.header {
+  background-colr: black;
+  min-height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+}
+
+
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+}
+
+
+
+
+
+
+.title {
+  z-index: 1;
+  position: absolute;
+  right: 0;
+  text-align: right;
+  margin-right: 2.5%;
+  margin-top: 10%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+
+}
+
+.title h1 {
+  text-align: right;
+  font-size: 2.5em;
+  margin-bottom: 5%;
+  border-top: 1px groove white;
+  border-bottom: 1px groove white;
+  padding: 2%;
+  width: 50%;
+
+}
+
+.title h2 {
+  font-style: italic;
+  font-size: 1.2em;
+}
+
+.main-navigation {
+  bordr: 1px solid red;
+  z-index: 1;
+  font-size: 1.5em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  bottom: 10%;
+}
+
+
+
+.main-navigation li {
+  margin-top: 10%;
+  border-top: 1px groove white;
+  border-bottom: 1px groove white;
+  padding: 3%;
+  text-align: center;
+  opacity: 0.6;
+  transition: opacity 0.2s;
+}
+
+.main-navigation li:hover {
+  opacity: 1;
+
+}
+
+main {
+  background-color: white;
+  z-index: 1;
+  position: relative;
+}
+
+.background-video {
+  height: 100%;
+  position: fixed;
+  width: auto;
+  trasform: translateX(-50%);
+  opacity: 0.9;
+}
+
+nav {
+
+  border: 2px solid white;
+  min-height: 8vh;
+  width: 100%;
+  z-index: 1;
+  position: absolute;
+  bottom: 0;
+}
+
+.icone-menu, .icone-menu::before, .icone-menu::after{
+  width: 20px;
+  height: 2px;
+  background-color: white;
+  margin-left: 3%;
+  margin-top: 5%;
+}
+
+.icone-menu::before, .icone-menu::after {
+  content: '';
+  display: block;
+}
