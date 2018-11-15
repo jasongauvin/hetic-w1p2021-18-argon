@@ -1,0 +1,246 @@
+@font-face {
+    font-family: "futura";
+    src: url("font/futura meidum bt.ttf") format("ttf");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "futura";
+    src: url("font/futura book italic font.ttf") format("ttf");
+    font-style: italic;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "futura";
+    src: url("font/futura bold font.ttf") format("ttf");
+    font-style: normal;
+    font-weight: bold;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    color: white;
+}
+
+nav {
+
+    border: 1px solid white;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.9);
+    z-index: 2;
+    overflow: hidden;
+    transition: min-height 0.2s;
+}
+
+.is-reached-nav {
+    position: fixed;
+    top: 0;
+    max-height: 8vh;
+}
+
+.is-open-nav {
+    width: 100vw;
+    min-height: 100vh;
+}
+
+.encercler {
+    z-index: -10;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.menu {
+    color: white;
+    font-family: "futura";
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    opacity: 0;
+}
+
+.logo-nav {
+    font-family: "futura";
+    font-weight: bold;
+    font-size: 62px;
+    height: 0;
+    overflow: hidden;
+    text-align: center;
+    margin-top: 18%;
+}
+
+.is-open-logo-nav {
+    height: auto;
+    color: #776a62;
+}
+
+.menu li {
+    margin-bottom: 10%;
+    font-size: 2em;
+}
+
+.is-open-menu {
+    opacity: 1;
+}
+
+
+.menu-burger {
+    position: absolute;
+    bottom: 9%;
+    left: 2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 50px;
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.menu-burger:hover {
+    opacity: 1;
+}
+
+.is-open-menu-burger {
+    bottom: 2%;
+}
+
+.menu-burger li {
+    width: 30px;
+    height: 4px;
+    background: white;
+}
+
+.menu-burger li:nth-child(2) {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+
+.main-nav {
+    font-family: "futura";
+    display: flex;
+    font-weight: bold;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    top: -20px;
+    height: 35px;
+    margin-left: 8%;
+}
+
+.main-nav h1 {
+    font-size: 22px;
+    color: #776a62;
+}
+
+
+main {
+    margin-top: 32%;
+    font-family: "futura";
+}
+
+
+
+.luxurious {
+    width: 100vw;
+}
+
+.cercle {
+    position: relative;
+}
+
+.title {
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.arrow {
+    width: 9vw;
+    position: absolute;
+    left: 3%;
+    top: 11%;
+}
+
+.buttonarticleluxurious {
+    background-color: #3252a3;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-size: 22px;
+    padding: 14%;
+    opacity: 0.8;
+
+}
+
+article {
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 10%;
+    text-align: justify;
+
+}
+
+.description {
+    color: #776a62;
+    text-align: center;
+    line-height: 25px;
+    font-size: 14px;
+}
+
+.description p {
+
+    margin: 5%;
+    text-align: justify;
+}
+
+.buttonarticle2 {
+    background-color: #3252a3;
+    text-align: center;
+    color: white;
+    width: 200px;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 0.1px;
+    opacity: 0.8;
+    margin-left: 17%;
+    margin-top: 5%;
+
+}
+
+footer {
+    font-family: "futura";
+    background-color: #282828;
+    color: white;
+    text-align: center;
+}
+
+footer p {
+    padding-top: 4%;
+    font-weight: bold;
+    font-size: 2em;
+}
+
+footer ul {
+    display: flex;
+    margin-top: 3%;
+    align-items: center;
+    justify-content: space-around;
+    padding-bottom: 3%;
+    text-transform: uppercase;
+    font-size: 10px;
+}

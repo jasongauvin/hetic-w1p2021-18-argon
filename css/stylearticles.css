@@ -19,67 +19,10 @@
 }
 
 
-.header {
-  min-height: 100vh;
-  width: 100vw;
-  overflow: hidden;
-}
-
-
-
-.header {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  color: white;
-}
 
 .body {
   color: white;
 }
-
-
-
-
-
-
-
-.title {
-  font-weight: bold;
-  z-index: 1;
-  position: absolute;
-  right: 0;
-  text-align: right;
-  margin-right: 2.5%;
-  margin-top: 10%;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
-
-}
-
-.title h1 {
-  font-family: "futura";
-  text-align: right;
-  font-size: 2.5em;
-  margin-bottom: 5%;
-  border-top: 1px groove white;
-  border-bottom: 1px groove white;
-  padding: 2%;
-  width: 50%;
-
-}
-
-.title h2 {
-  line-height: 127%;
-  font-family: "futura";
-  font-style: italic;
-  font-size: 1.2em;
-  margin-top: 30%;
-}
-
-
-
 
 
 
@@ -96,37 +39,21 @@ main {
   position: relative;
 }
 
-.background-video {
-  height: 100vh;
-  position: fixed;
-  width: auto;
-  trasform: translateX(-50%);
-  opacity: 0.9;
-}
-
-.is-reached-background-video {
-
-  opacity: 0;
-}
 
 nav {
 
   border: 1px solid white;
   min-height: 10vh;
   width: 100%;
-  position: absolute;
-  bottom: -4px;
+  position: fixed;
+  top:0;
   background-color: rgba(0, 0, 0, 0.9);
   z-index: 2;
   overflow: hidden;
   transition: min-height 0.2s;
 }
 
-.is-reached-nav {
-  position: fixed;
-  top: 0;
-  max-height: 8vh;
-}
+
 
 .is-open-nav {
   width: 100vw;
@@ -173,6 +100,7 @@ nav {
 
 .is-open-menu {
   opacity: 1;
+  color: white;
 }
 
 
@@ -209,82 +137,8 @@ nav {
   margin-bottom: 5px;
 }
 
-.titles {
-  height: 100vh;
-}
-
-.history,
-.values {
-  color: white;
-  font-size: 2em;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  background-position: center;
-  background-size: cover;
-}
-
-.history {
-  background-image: url(../img/totoOurHistory.jpg);
-  background-repeat: no-repeat;
-  height: 41vh;
-}
-
-.values {
-  background-image: url(../img/ourValues.jpg);
-  background-repeat: no-repeat;
-  height: 58vh;
-}
-
-.story-para,
-.values-para {
-  height: 0;
-  overflow: hidden;
-  font-size: 22px;
-  transition: height 1s;
-}
-
-.story-para p,.values-para p {
-  text-align:center;
-  margin: 12%;
-  line-height: 37px;
-
-}
-
-.is-open-history,
-.is-open-values {
-  height: auto;
-}
-
-.is-open-story {
-  height: auto;
-  overflow: visible;
-  background-color: black;
-  color:#776a62;
-  width: 100%;
-}
 
 
-.is-open-para {
-  background-color: black;
-  color:#776a62;
-  height: auto;
-
-}
-
-.title-story,
-.title-values {
-  font-weight: bold;
-  font-size: 42px;
-  background-color: rgba(40,40,40,0.6);
-  width: 100vw;
-  text-align: center;
-  padding-top: 10%;
-  padding-bottom: 10%;
-
-
-}
 
 
 a {
@@ -295,19 +149,14 @@ a:visited {
   color: white;
 }
 
-.products {
-  margin-top: 3%;
+
+
+
+
+.articles {
+  margin-top: 21%;
 }
 
-.products h1 {
-  font-weight: bold;
-}
-
-.is-open-products {
-  opacity: 0
-}
-
-section h1,
 article h1 {
   color:#776a62;
   height: 50px;
@@ -315,67 +164,9 @@ article h1 {
   font-size: 2em;
 }
 
-section img {
-  width: 300px;
-  height: 300px;
-}
-
-.product1 {
-  background: url(../img/baignoireFlottaison2.png);
-  height: 300px;
-  background-size: cover;
-  background-position: center;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-bottom: 10px;
-}
-.buttonbath+p,.buttonwashlet+p,.buttontap+p {
-  color: #3252a3;
-  border: 5px solid#3252a3;
-  padding: 20px;
-  text-align: center;
-  font-weight: bold;
-}
 
 
 
-.buttonbath+p:hover {
-  background-color: white;
-}
-
-.product2 {
-  background: url(../img/washlet.jpg);
-  height: 300px;
-  background-size: cover;
-  background-position: center;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-bottom: 10px;
-}
-
-
-
-.buttonwashlet+p:hover {
-  background-color: white;
-}
-
-.product3 {
-  background: url(../img/robinet.jpg);
-  height: 300px;
-  background-size: cover;
-  background-position: center;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-
-
-.buttontap+p:hover {
-  background-color: white;
-}
 
 article h1 {
   padding-top: 3%;
