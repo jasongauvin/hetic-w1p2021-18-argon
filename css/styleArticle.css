@@ -182,7 +182,7 @@ main {
     color: white;
     font-weight: bold;
     font-size: 22px;
-    padding: 14%;
+    padding:5%;
     opacity: 0.8;
 
 }
@@ -196,7 +196,7 @@ article {
 }
 
 .description {
-    color: #776a62;
+    color: #282828;
     text-align: center;
     line-height: 25px;
     font-size: 14px;
@@ -206,6 +206,7 @@ article {
 
     margin: 5%;
     text-align: justify;
+    color: #282828;
 }
 
 .buttonarticle2 {
