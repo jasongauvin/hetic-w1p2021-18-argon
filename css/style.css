@@ -4,6 +4,7 @@
   font-style: normal;
   font-weight: normal;
 }
+
 @font-face {
   font-family: "futura";
   src: url("font/futura book italic font.ttf") format("ttf");
@@ -18,6 +19,17 @@
   font-weight: bold;
 }
 
+a {
+  text-decoration: none;
+}
+
+main a:visited {
+  color: black;
+}
+
+a:visited {
+  color: white;
+}
 
 .header {
   min-height: 100vh;
@@ -66,7 +78,7 @@
   border-top: 1px groove white;
   border-bottom: 1px groove white;
   padding: 2%;
-  width:100%;  
+  width: 100%;
 
 }
 
@@ -75,9 +87,9 @@
   font-family: "futura";
   font-style: italic;
   font-size: 1.2em;
-  margin-top: 6%;
-  margin-left: 10%;
+  margin-top: 12%;
   margin-right: 10%;
+  margin-left: 10%;
   text-align: center;
 }
 
@@ -115,7 +127,7 @@ main {
 nav {
 
   border: 1px solid white;
-  min-height: 10vh;
+  max-height: 10vh;
   width: 100%;
   position: absolute;
   bottom: -4px;
@@ -137,7 +149,7 @@ nav {
 }
 
 .encercler {
-  z-index:-10;
+  z-index: -10;
   position: absolute;
   display: flex;
   justify-content: center;
@@ -162,11 +174,12 @@ nav {
   overflow: hidden;
   text-align: center;
   margin-top: 18%;
+  color: #ffffff;
 }
 
 .is-open-logo-nav {
   height: auto;
-  color: #776a62;
+  color: #ffffff;
 }
 
 .menu li {
@@ -212,9 +225,7 @@ nav {
   margin-bottom: 5px;
 }
 
-.titles {
-  height: 100vh;
-}
+
 
 .history,
 .values {
@@ -229,13 +240,13 @@ nav {
 }
 
 .history {
-  background-image: url(../img/totoOurHistory.jpg);
+  background-image: url(../img/toto-our-history.jpg);
   background-repeat: no-repeat;
   height: 41vh;
 }
 
 .values {
-  background-image: url(../img/ourValues.jpg);
+  background-image: url(../img/our-values.jpg);
   background-repeat: no-repeat;
   height: 58vh;
 }
@@ -248,8 +259,9 @@ nav {
   transition: height 1s;
 }
 
-.story-para p,.values-para p {
-  text-align:center;
+.story-para p,
+.values-para p {
+  text-align: center;
   margin: 12%;
   line-height: 37px;
 
@@ -264,14 +276,14 @@ nav {
   height: auto;
   overflow: visible;
   background-color: black;
-  color:#776a62;
+  color: #776a62;
   width: 100%;
 }
 
 
 .is-open-para {
   background-color: black;
-  color:#776a62;
+  color: #776a62;
   height: auto;
 
 }
@@ -280,7 +292,7 @@ nav {
 .title-values {
   font-weight: bold;
   font-size: 42px;
-  background-color: rgba(40,40,40,0.6);
+  background-color: rgba(40, 40, 40, 0.6);
   width: 100vw;
   text-align: center;
   padding-top: 10%;
@@ -290,13 +302,7 @@ nav {
 }
 
 
-a {
-  text-decoration: none;
-}
 
-a:visited {
-  color: white;
-}
 
 .products {
   margin-top: 3%;
@@ -307,14 +313,15 @@ a:visited {
 }
 
 .is-open-products {
-  opacity: 0
+  display: none;
 }
 
 section h1,
 article h1 {
-  color:#282828;
-  height: 50px;
+  color: #282828;
+  height: 76px;
   text-align: center;
+  margin-top: 10%;
   font-size: 2em;
 }
 
@@ -324,7 +331,7 @@ section img {
 }
 
 .product1 {
-  background: url(../img/baignoireFlottaison2.png);
+  background: url(../img/baignoire-flottaison-2.png);
   height: 300px;
   background-size: cover;
   background-position: center;
@@ -333,13 +340,16 @@ section img {
   align-items: center;
   margin-bottom: 10px;
 }
-.buttonbath+p,.buttonwashlet+p,.buttontap+p {
+
+.buttonbath+p,
+.buttonwashlet+p,
+.buttontap+p {
   color: #3252a3;
   border: 5px solid#3252a3;
   padding: 20px;
   text-align: center;
   font-weight: bold;
-  text-transform:uppercase;
+  text-transform: uppercase;
 }
 
 
@@ -398,11 +408,11 @@ article h1 {
   position: relative;
 }
 
-.buttonarticle1+p,.buttonarticle2+p{
-  width: 38%;
+.buttonarticle1+p,
+.buttonarticle2+p {
   color: black;
   border: 5px solid black;
-  padding:3%;
+  padding :3%;
   text-align: center;
   font-size: 20px;
   font-weight: bolder;
@@ -415,7 +425,7 @@ article h1 {
 
 .buttonluxurious+p {
   color: white;
-  background-color: rgba(50,82,163 , 0.6);
+  background-color: rgba(50, 63, 163, 0.6);
   padding-top: 5%;
   padding-bottom: 5%;
   padding-left: 3%;
@@ -426,7 +436,7 @@ article h1 {
 }
 
 .article2 {
-  background: url(../img/article_2.jpg);
+  background: url(../img/article-2.jpg);
   height: 300px;
   background-size: cover;
   background-position: center;
@@ -440,7 +450,7 @@ article h1 {
 
 .buttonwater+p {
   color: white;
-  background-color: rgba(50, 82, 163, 0.6);
+  background-color: rgba(50, 63, 163, 0.8);
   padding-top: 5%;
   padding-bottom: 5%;
   padding-left: 3%;
@@ -475,4 +485,208 @@ footer ul {
   padding-bottom: 3%;
   text-transform: uppercase;
   font-size: 10px;
+}
+
+@media (max-width:760px) {
+  
+
+  .article1-description,.article2-description {
+    display: none;
+  }
+}
+
+@media (max-width: 750px) {
+  .menu li {
+    font-size: 0.9rem;
+  }
+}
+
+@media (min-width: 760px) {
+
+  nav {
+    position: fixed;
+    top: 0;
+    opacity: 0.7;
+  }
+
+
+
+  .encerlcer {
+    display: none;
+  }
+
+  .title {
+    margin-top: 10%;
+    align-items: center;
+    width: 100%;
+  }
+
+  .title h1 {
+    text-align: center;
+    border: none;
+    font-size: 5em;
+  }
+
+  .title h2 {
+    font-size: 35px;
+  }
+
+  .menu {
+    width: 100%;
+    display: flex;
+    flex-direction: initial;
+    opacity: 1;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 10%;
+  }
+
+  .menu li {
+    font-weight: bold;
+    font-size: 1rem;
+  }
+
+  .menu-burger {
+    display: none;
+  }
+
+
+  .title-story,
+  .title-values {
+    color: white;
+    width: auto;
+  }
+
+  .history,
+  .values {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+  }
+
+  .story-description {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-right: 50%;
+    background-color: rgba(255, 255, 255, 0.7)
+  }
+
+  .values-description {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    background-color: rgba(0, 0, 0, 0.7);
+    margin-left: 50%;
+
+
+  }
+
+  section h1,
+  article h1 {
+    margin-top: 6%;
+    text-align: left;
+    margin-left: 1%;
+  }
+
+  .article1 {
+    margin-left: 2%;
+  }
+
+  article h1 {
+    margin-top: 2%;
+  }
+
+  .story-para {
+    height: 100%;
+    color: black;
+    text-align: center;
+    margin: 12%;
+  }
+
+  .values-para {
+    height: 100%;
+  }
+
+  .is-open-story {
+    background-color: rgba(255, 255, 255, 0)
+  }
+
+  .story-para p {
+    margin: 0;
+  }
+
+  .product1,
+  .product2 {
+    width: 48%;
+  }
+
+  .product1-2 {
+    display: flex;
+    justify-content: space-around;
+
+  }
+
+  .article1 {
+    width: 50%;
+  }
+
+  .buttonluxurious+p {
+    bottom: 82.3%;
+    left: 100%;
+  }
+
+  .buttonarticle1+p {
+    position: absolute;
+    top: 87%;
+    left: 124%;
+  }
+
+  .article1-description {
+    width: 50%;
+    position: absolute;
+    top: 16%;
+    left: 125%;
+    line-height: 23px;
+    font-size: 12px;
+    font-style: italic;
+  }
+
+  .article1-description p {
+    margin-top: 10%;
+  }
+
+  .article2 {
+    width: 50%;
+    margin-left: 49%;
+    margin-top: 5%;
+  }
+
+  .buttonwater+p {
+    position: absolute;
+    bottom: 74%;
+    left: -58.9%;
+  }
+
+  .buttonarticle2+p {
+    position: absolute;
+    top: 78%;
+    right: 127%;
+  }
+
+  .article2-description  {
+    width: 50%;
+    line-height: 23px;
+    font-size: 12px;
+    position: absolute;
+    top: 33%;
+    left: -70%;
+    font-style: italic;
+  }
+
+
+
+
 }

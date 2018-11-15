@@ -133,16 +133,16 @@ nav {
     font-family: "futura";
     display: flex;
     font-weight: bold;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     position: relative;
-    top: -20px;
+    top: -36px;
     height: 35px;
     margin-left: 8%;
 }
 
 .main-nav h1 {
-    font-size: 22px;
+    font-size: 271%;
     color: #776a62;
 }
 
@@ -170,7 +170,7 @@ main {
 }
 
 .arrow {
-    width: 9vw;
+    width: 7vw;
     position: absolute;
     left: 3%;
     top: 11%;
@@ -182,7 +182,7 @@ main {
     color: white;
     font-weight: bold;
     font-size: 22px;
-    padding:5%;
+    padding: 14%;
     opacity: 0.8;
 
 }
@@ -196,7 +196,7 @@ article {
 }
 
 .description {
-    color: #282828;
+    color: #776a62;
     text-align: center;
     line-height: 25px;
     font-size: 14px;
@@ -206,7 +206,6 @@ article {
 
     margin: 5%;
     text-align: justify;
-    color: #282828;
 }
 
 .buttonarticle2 {

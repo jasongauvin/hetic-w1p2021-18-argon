@@ -149,10 +149,6 @@ a:visited {
   color: white;
 }
 
-
-
-
-
 .articles {
   margin-top: 21%;
 }
@@ -162,14 +158,6 @@ article h1 {
   height: 50px;
   text-align: center;
   font-size: 2em;
-}
-
-
-
-
-
-article h1 {
-  padding-top: 3%;
   font-weight: bold;
 }
 
@@ -214,7 +202,7 @@ article h1 {
 }
 
 .article2 {
-  background: url(../img/article_2.jpg);
+  background: url(../img/article-2.jpg);
   height: 300px;
   background-size: cover;
   background-position: center;
